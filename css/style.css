@@ -1,0 +1,56 @@
+.mainbox{
+    background-color: burlywood;
+    width:800px;
+    margin: 0px auto;
+}
+
+.menu{
+    background-color: brown;
+    height: 36px;
+    text-align: center;
+}
+
+.leftside{
+    background-color: cornflowerblue;
+    width:100px;
+    float:left;
+}
+
+.main{
+    background-color: coral;
+    width:600px;
+    float:left;
+}
+
+.rightside{
+    background-color: darksalmon;
+    width:100px;
+    float:left;
+}
+
+.footer{
+    background-color: hotpink;
+}
+
+.menu>ul>li{
+    display: inline;
+    padding:10px 10px 10px 10px;
+    background-color: darkgreen;
+    position: relative;
+    top:8px;
+    font-family: Tahoma, serif;
+    font-size: 15px;
+}
+
+.menuul>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.gallery{
+    max-width: 50px;
+}
+
+.mgallery{
+    text-align: center;
+}
